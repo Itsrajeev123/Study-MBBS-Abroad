@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-blue-600 {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bg-blue-600:hover {
+    background-color: #1e40af;
+}
+
+button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+input, select {
+    transition: border 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
