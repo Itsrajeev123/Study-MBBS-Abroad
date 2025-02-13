@@ -1,0 +1,48 @@
+# Design & Development Report
+
+## Introduction
+The **Study MBBS Abroad** landing page is designed to provide an informative and visually appealing experience for students exploring MBBS programs in different countries. The primary goal is to engage users, provide clear information, and facilitate lead generation through a well-structured form.
+
+## Design Approach
+### 1. **User-Centric Design**
+- A clean and modern layout was used to ensure easy navigation.
+- A visually engaging hero section with a strong CTA to encourage conversions.
+- Mobile-first approach to ensure compatibility across different devices.
+
+### 2. **Responsive UI**
+- Implemented **Tailwind CSS** for a seamless and flexible grid system.
+- Used **flexbox and grid layouts** to maintain a structured look on all screen sizes.
+- Ensured **cross-browser compatibility** by testing on Chrome, Firefox, and Edge.
+
+## Development Process
+### 1. **HTML Structure**
+- Semantic HTML5 elements were used to enhance accessibility and SEO.
+- Sections were divided into logical components (Hero, Benefits, Countries, Admission, CTA).
+
+### 2. **CSS Styling with Tailwind CSS**
+- Predefined utility classes were leveraged to streamline styling.
+- Custom classes were added for padding, margins, and typography adjustments.
+- Ensured consistency in font usage and button styles.
+
+### 3. **JavaScript for Interactivity**
+- Implemented **form validation** to prevent incorrect user inputs.
+- Integrated **Google Analytics & Facebook Pixel** for tracking user behavior.
+
+### 4. **Performance Optimization**
+- Minified CSS and JavaScript to improve page load speed.
+- Optimized images using WebP format for faster rendering.
+- Used lazy loading techniques for non-essential resources.
+
+## Deployment
+- The project was deployed on **Netlify/Vercel** for fast and secure hosting.
+- A structured GitHub repository was maintained for version control.
+
+## Challenges & Solutions
+| Challenge | Solution |
+|-----------|----------|
+| Ensuring responsiveness across all devices | Used Tailwind CSS with media queries |
+| Handling form validation effectively | Implemented JavaScript validation |
+| Tracking user interactions | Integrated Google Analytics & Facebook Pixel |
+
+## Conclusion
+The **Study MBBS Abroad** landing page successfully meets the requirements by offering an intuitive UI, a structured information layout, and an effective lead generation form. The combination of responsive design, SEO optimizations, and performance tracking ensures an efficient and engaging user experience.
